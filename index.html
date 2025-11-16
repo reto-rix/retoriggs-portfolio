@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto Riggs</title>
+    <link rel="stylesheet" href="rex_style.css">
+    <style>
+
+
+
+        @font-face {
+            font-family: "Homoneta";
+            src: url("/Users/retoriggs/Library/Fonts/Homoneta-Regular.otf") format("opentype");
+            font-weight:normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Homoneta";
+            src: url("/Users/retoriggs/Library/Fonts/Homoneta-Italic.otf") format("opentype");
+            font-weight:normal;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: "Instrument";
+            src: url("/Users/retoriggs/Library/Fonts/InstrumentSerif-Regular.ttf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Enby Gertrude";
+            src: url("/Users/retoriggs/Library/Fonts/Enby_Gertrude_roman.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("/Users/retoriggs/Library/Fonts/Adelphe-FlorealRegular.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("/Users/retoriggs/Library/Fonts/Adelphe-FlorealItalic.otf") format("opentype");
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("/Users/retoriggs/Library/Fonts/Adelphe-FlorealBold.otf") format("opentype");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("/Users/retoriggs/Library/Fonts/Adelphe-FlorealBoldItalic.otf") format("opentype");
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face  {
+            font-family: "Instrument";
+            src: url("/Users/retoriggs/Library/Fonts/InstrumentSerif-Italic.ttf") format("opentype");
+            font-weight: normal;
+            font-style: italic;
+        }
+        @font-face {
+            font-family: "Apfel Grotezk";
+            src: url("//ApfelGrotezk-Regular.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+         @font-face {
+            font-family: "Apfel Grotezk";
+            src: url("//ApfelGrotezk-Fett.otf") format("opentype");
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Sprat";
+            src: url("//SpratVF.ttf") format("truetype");
+            font-weight: 200 900;
+            font-style: normal;
+            font-stretch: 75% 125%;
+
+        }
+        .active {
+        }
+    </style>
+</head>
+
+<!--
+pf = portfolio
+i = item
+h = header
+-->
+
+<body>
+<!--Menu bar on wide screens-->
+
+<header class="grid-container">
+        <div class="header-name">RETO RIGGS</div>
+        <div class="header-contact">CONTACT</div>
+        <div class="header-imprint">IMPRINT</div>
+</header>
+
+<!--Menu bar on narrow screens-->
+
+<div class="menuBar" id="menuBar">
+    <div class="header-name">RETO RIGGS</div>
+    <div class="header-menu">MENU</div>
+</div>
+
+ <div class="menuList" id="menuList">
+        <div class="header-name">RETO RIGGS</div>
+        <div class="header-contact">CONTACT</div>
+        <div class="header-imprint">IMPRINT</div>
+    </div>
+
+
+
+<!-- bio text  -->
+<div class = "bio-content" id="bio-content">
+    <div id="bio-text">
+        <p>Reto Riggs is an interdisciplinary critical theorist on climate and energy politics, environmental science and philosophy. Drawing on his experiences in environmental science, <em><a href="https://transversaldesign.ch">transversal design</a></em>, activism and independent publishing with the <em><a href="https://megafon.ch">megafon newspaper collective</a></em>, he develops strategies that bridge science, design and politics. Wielding these as a single practice amidst rigid institutions and violent infrastructures, he searches for tactics and interventions towards a politics of care and kinship.
+        </p>
+    </div>
+</div>
+
+<div id="arrow-down" onclick="scrollTo(document.getElementById('scrollTo'))">&darr;</div>
+
+<!-- portfolio content -->
+<div class="pf-content" id="scrollTo">
+    <div class="grid-container">
+        <div class="pf-desc-date" id="works">WORKS</div>
+    </div>
+
+<hr>
+    <div class="pf-desc grid-container">
+        <div class="pf-desc-date">DATE</div>
+        <div class="pf-desc-title">TITLE</div>
+        <div class="pf-desc-cat">CATEGORY</div>
+
+    </div>
+    <div class="pf-item">
+        <div class="pf-i-header grid-container">
+            <div class="pf-i-h-date">
+            <p>09.2025</p>
+        </div>
+            <div class="pf-i-h-title">
+            <p>Reclaiming Climate Futures</p>
+        </div>
+            <div class="pf-i-h-tag">
+            <p>Research/ Workshop/ Graphic Design
+            </p>
+        </div>
+        </div>
+        <div class="pf-i-content grid-container">
+            <div class="pf-i-c-buffer"></div>
+            <div class="pf-i-c-body">
+                <p>
+                    <em>The ancient Babylonian world map, dated to the 9th century BCE structures the known world inside of a circle. Beyond lies the unknown, which is graphically alluded to with six triangles. The graphic on the front page is a diagram that approximates the Babylonian world map. <br>
+By contrast, contemporary maps, in particular climate maps depicting possible futures for the Earth leave no space for intervention or imagination. From impossible vantage points they structure space and time, delimiting likely futures while eclipsing the conceptual space to define it otherwise. What sorts of politics and practices aren’t represented in these graphics?</em>
+                </p>
+
+                <hr>
+                <p>For the exhibition <a href="https://transversaldesign.ch/iridescence">Iridescence – A Spectrum of Research Practices</a> from September 10.–14. 2025, I produced an A3 riso print, which folds into an eight page zine. Outlined therein are the corner-points of my research for the thesis Speculating Towards a Transversal Environmental Science. On the back is a poster, consisting of a 48 frame animation of a spinning globe. The exhibition featured a table with the riso-prints, a print-out of the thesis “Speculating Towards a Transversal Environmental Science,” and other related printed matter, a wall projection of the animated, spinning globe and three prints mounted on the wall.
+The printed poster formed the foundation of a workshop that occurred on September 13. 2025, where interested participants gathered around the table to draw and paint over the apocalyptic landscape depicted in the climate graphics, adding blues and greens to represent a future worth living in and fighting for.
+            </p>
+                <img src="W2_Video_Sequence.gif" width="100%"/>
+            </div>
+            <div class="pf-i-c-citations"><p>The ancient Babylonian world map, dated to the 9th century BCE structures the known world inside of a circle. Beyond lies the unknown, which is graphically alluded to with six triangles. The graphic on the front page is a diagram that approximates the Babylonian world map.
+By contrast, contemporary maps, in particular climate maps depicting possible futures for the Earth leave no space for intervention or imagination. From impossible vantage points they structure space and time, delimiting likely futures while eclipsing the conceptual space to define it otherwise. What sorts o
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pf-item">
+        <div class="pf-i-header grid-container">
+            <div class="pf-i-h-date">
+            <p>06.2025</p>
+        </div>
+            <div class="pf-i-h-title">
+            <p>Speculating Towards a Transversal Environmental Science</p>
+        </div>
+            <div class="pf-i-h-tag">
+            <p>Research</p>
+        </div>
+        </div>
+        <div class="pf-i-content grid-container">
+            <div class="pf-i-c-buffer"></div>
+            <div class="pf-i-c-body">
+                <p>While the threat of climate change has been scientifically understood for over fifty years, fossil investments and emissions continue climbing, jeopardizing progress towards renewable economies or lifestyle adjustments. For just as long, feminist and critical theorists have insisted on a situated perspective in science, to combat ‘objective’ scientific conclusions being put to work for naturalising and reproducing violent regimes and relations to the world. In the context of climate change, situated and reflexive paradigms are important for learning to inhabit the world on principles of care and kinship. But climate policy continues to insist on ‘pure’, objective science, in doing so denying the relevance of different relations to the world. The author reflects on the lack of such sensibilities in his environmental system science education, and speculates towards a transversal environmental science paradigm on the principles of embodiment, curiosity, humility and responsibility.</p>
+            </div>
+            <div class="pf-i-c-citations"></div>
+        </div>
+
+    </div>
+
+     <div class="pf-item">
+        <div class="pf-i-header grid-container">
+            <div class="pf-i-h-date">
+            <p>06.2025</p>
+        </div>
+            <div class="pf-i-h-title">
+            <p>For the Love of P-Value</p>
+        </div>
+            <div class="pf-i-h-tag">
+            <p>Research</p>
+        </div>
+        </div>
+        <div class="pf-i-content grid-container">
+        <div class="pf-i-c-body">
+                <p>"I've never met an ecologist who came to the field for the love of data or for the wonder of a p-value", Potawatomi biologist Robin Wall Kimmerer relates (2020, p. 252). She recalls being enamored by the beauty of Asters and Goldenrods, their aesthetic and ecological harmony compelling her to pursue biology.
+                <br>
+
+                </p>
+            </div>
+        <div class="pf-i-c-citations">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+
+    <script src="rex_js.js"></script>
+</body>
+</html>

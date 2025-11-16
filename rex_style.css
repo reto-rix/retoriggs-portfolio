@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: auto;
+    color: #000000;
+    background: #ff8400;
+    background: linear-gradient(180deg, rgb(243, 237, 229) 0%, rgb(255, 197, 139) 65%, rgba(255, 255, 255, 1) 100%);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+     -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    word-break:break-word;
+    hyphens: auto;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+#arrow-down {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 1rem;
+
+}
+/*
+.grid-container div {
+    border-left: 1px solid blue;
+    border-right: 1px solid red;
+    border-bottom: 1px solid greenyellow;
+    border-top: 1px solid yellow;
+
+}
+*/
+header {
+    position: fixed;
+    display: grid;
+    width:100%;
+    backdrop-filter: blur(3px);
+    border-bottom: 1px solid #000000;
+    text-align: left;
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+    font-size: 12px;
+    padding: 1rem;
+    padding-top: 1.2rem;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    z-index: 499;
+    align-content: stretch;
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+.header-name {
+    grid-column: span 1;
+    min-width: 75px;
+    
+}
+
+.header-contact {
+    grid-column: 11 / span 1;
+    text-align: left;
+    cursor: pointer;
+}
+
+.header-imprint {
+    grid-column: 12 / span 1;
+    text-align: right;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+#bio-content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+    font-family: "Adelphe";
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 15vh;
+    letter-spacing: -1px;
+    color: #201f1f;
+
+}
+
+
+#bio-text {
+    grid-column: 5 / span 7;
+    text-align: center;
+    align-self: center;
+}
+
+#works {
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+.pf-content {
+    position: relative;
+    font-family: "Apfel Grotezk";
+    font-weight:normal;
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem;
+    padding-top: 3rem;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.pf-item {
+    font-family: "Adelphe";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 110%;
+    font-size: 20px;
+
+}
+
+.pf-i-header {
+    cursor:pointer;
+    font-weight: normal;
+    line-height: 90%;
+    align-items: flex-end;
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+
+}
+.pf-i-header:hover {
+    color: #0015ff;
+}
+
+.pf-i-h-title.active {
+    transition: 1s ease;
+    color: #0015ff;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.pf-i-h-date {
+    grid-column: span 1;
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+    line-height: 90%;
+    min-width: 75px;
+}
+.pf-i-h-title {
+    grid-column: span 7;
+    transition: all 1s ease;
+}
+
+.pf-i-h-tag {
+    grid-column: span 4;
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+    line-height: 90%;
+}
+
+.pf-i-content {
+    display:inline-grid;
+    transition: 1s ease;
+    overflow: auto;
+    max-height: 0;
+    align-content: baseline;
+    padding: 0;
+    margin: 0;
+}
+
+.pf-i-content.active {
+    display:inline-grid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: all 1s ease;
+}
+
+/* Grid Column Alignments */
+
+.pf-desc {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 1em;
+}
+.pf-desc-date {
+    grid-column: span 1;
+    min-width: 75px;
+}
+.pf-desc-title {
+    grid-column: span 7;
+}
+.pf-desc-cat {
+    grid-column: span 4;
+}
+
+.pf-i-c-buffer {
+    grid-column: 1 / span 1;
+    min-width: 75px;
+}
+
+.pf-i-c-body {
+    grid-column: 2 / span 7;
+
+}
+
+.pf-i-c-citations {
+    grid-column: span 2;
+    font-size: 12px;
+    color: dimgrey;
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+    text-align: left;
+    align-self: flex-end;
+}
+
+.menuBar {
+    display: none;
+}
+
+.menuList {
+    display: none;
+}
+
+img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+hr {
+    margin-top: 1em;
+    height: 1px;
+    background-color: #201f1f;
+    border: 0;
+}
+
+@media only screen and (max-width: 750px) {
+    .menuBar {
+        cursor: pointer;
+        display: inline-grid;
+        position: fixed;
+        text-align: right;
+        font-family: "Apfel Grotezk";
+        font-weight: normal;
+        font-size: 12px;
+        padding: 1rem;
+        padding-top: 1.2rem;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+        z-index: 499;
+        align-content: stretch;
+        width: 100%;
+        backdrop-filter: blur(3px);
+        border-bottom: 1px solid black;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .menuBar.close {
+        visibility: hidden;
+    }
+    
+    .header-name {
+        grid-column: 1 / span 5;
+        justify-self: left;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+    }
+    .header-menu {
+        grid-column: 7 / span 6;
+        justify-self: right;
+    }
+    
+    .menuList {
+        visibility: hidden;
+        display: inline-block;
+        position: fixed;
+        text-align: left;
+        font-family: "Apfel Grotezk";
+        font-weight: normal;
+        font-size: 12px;
+        padding: 1rem;
+        padding-top: 1.2rem;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+        z-index: 100;
+        align-content: stretch;
+        width: 100%;
+        backdrop-filter: blur(3px);
+        border-bottom: 1px solid black;
+        background: rgba(255, 255, 255, 0.5);
+
+
+    }
+
+    .menuList.open {
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    .header-imprint {
+        text-align: left;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    #bio-content {
+        padding: 10vw;
+    }
+
+    .pf-content {
+        padding-top: 4rem;
+    }
+    .pf-desc {
+        display: none;
+    }
+    .pf-i-header {
+        display: inline-block;
+    }
+
+    .pf-i-h-title {
+
+    }
+
+    .pf-i-content.active {
+        display: inline-block;
+        justify-items: left;
+    }
+    .pf-i-content {
+        display: inline-block
+    }
+
+
+    .pf-i-c-citations {
+        padding-top: 1em;
+        max-width: 50%;
+
+
+    }
+
+
+    hr {
+        height: 2px;
+        margin-bottom: 2em;
+    }
+
+    .bio-text {
+        grid-column: 2 / span 10;
+    }
+
+}
