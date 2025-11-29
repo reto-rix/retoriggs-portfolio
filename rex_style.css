@@ -4,8 +4,8 @@ body {
     display: block;
     overflow: auto;
     color: #000000;
-    background: #ff8400;
-    background: linear-gradient(180deg, rgb(243, 237, 229) 0%, rgb(255, 197, 139) 65%, rgba(255, 255, 255, 1) 100%);
+    background: #ffffff;
+    /*background: linear-gradient(180deg, rgb(243, 237, 229) 0%, rgb(201, 203, 232) 65%, rgb(204, 190, 182) 100%); */
 }
 
 p {
@@ -88,12 +88,10 @@ header {
 
 #bio-content {
     display: flex;
-    align-items: center;
-    justify-items: center;
     min-height: 100vh;
     font-family: "Adelphe";
     font-style: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
     padding: 15vh;
     letter-spacing: -1px;
@@ -104,7 +102,7 @@ header {
 
 #bio-text {
     grid-column: 5 / span 7;
-    text-align: center;
+    text-align: left;
     align-self: center;
 }
 
@@ -143,8 +141,10 @@ header {
     font-weight: normal;
 
 }
+
 .pf-i-header:hover {
     color: #0015ff;
+    transition: 0.5s ease;
 }
 
 .pf-i-h-title.active {
@@ -163,7 +163,7 @@ header {
 }
 .pf-i-h-title {
     grid-column: span 7;
-    transition: all 1s ease;
+    transition: 1s ease;
 }
 
 .pf-i-h-tag {
@@ -187,7 +187,7 @@ header {
     display:inline-grid;
     margin-top: 1em;
     margin-bottom: 1em;
-    transition: all 1s ease;
+    transition: 1s ease;
 }
 
 /* Grid Column Alignments */
