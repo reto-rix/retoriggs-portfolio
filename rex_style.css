@@ -69,7 +69,7 @@ div {
 }
 
 #arrow-down {
-    display: flex;
+    display: block;
     align-self: center;
     justify-self: center;
     cursor: pointer;
