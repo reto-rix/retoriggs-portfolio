@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="v1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealBold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealBold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealBoldItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealBoldItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealItalic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealRegular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealRegular.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApfelGrotezk-Fett.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/ApfelGrotezk-Fett.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApfelGrotezk-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/ApfelGrotezk-Regular.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rex_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rex_style.css" afterDir="false" />
-    </list>
+    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="20251129" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +49,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/fonts" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763303521025</updated>
       <workItem from="1763303522062" duration="10253000" />
-      <workItem from="1764434803595" duration="2889000" />
+      <workItem from="1764434803595" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -126,7 +120,55 @@
       <option name="project" value="LOCAL" />
       <updated>1764435523519</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1764439828782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764439828782</updated>
+    </task>
+    <task id="LOCAL-00008" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1764440262525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440262526</updated>
+    </task>
+    <task id="LOCAL-00009" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1764440470309</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440470309</updated>
+    </task>
+    <task id="LOCAL-00010" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1764440658148</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440658148</updated>
+    </task>
+    <task id="LOCAL-00011" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1764440856642</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440856642</updated>
+    </task>
+    <task id="LOCAL-00012" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1764440902561</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440902561</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="20251129" />
+    <option name="LAST_COMMIT_MESSAGE" value="20251129" />
   </component>
 </project>
