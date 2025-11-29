@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="v1" />
+    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="v1">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealBold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealBold.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealBoldItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealBoldItalic.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealItalic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealItalic.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adelphe-FlorealRegular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Adelphe-FlorealRegular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApfelGrotezk-Fett.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/ApfelGrotezk-Fett.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApfelGrotezk-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/ApfelGrotezk-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rex_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rex_style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "reto-rix"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;reto-rix&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/reto-rix/retoriggs-portfolio.git",
-    "accountId": "587654da-e3fa-485c-a420-5cd3b1cefea7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/reto-rix/retoriggs-portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;587654da-e3fa-485c-a420-5cd3b1cefea7&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="35Z2xgAlJDionAqEGu1AtR6KMYc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +50,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763303521025</updated>
       <workItem from="1763303522062" duration="10253000" />
+      <workItem from="1764434803595" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -97,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764434599751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1">
+      <option name="closed" value="true" />
+      <created>1764434957855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764434957855</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v1">
+      <option name="closed" value="true" />
+      <created>1764435523519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764435523519</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

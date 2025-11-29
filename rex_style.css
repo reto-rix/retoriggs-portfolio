@@ -1,3 +1,46 @@
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("css/fonts/Adelphe-FlorealRegular.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("css/fonts/Adelphe-FlorealItalic.otf") format("opentype");
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("css/fonts/Adelphe-FlorealBold.otf") format("opentype");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face  {
+            font-family: "Adelphe";
+            src: url("css/fonts/Adelphe-FlorealBoldItalic.otf") format("opentype");
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: "Apfel Grotezk";
+            src: url("css/fonts/ApfelGrotezk-Regular.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        @font-face {
+            font-family: "Apfel Grotezk";
+            src: url("css/fonts/ApfelGrotezk-Fett.otf") format("opentype");
+            font-weight: bold;
+            font-style: normal;
+        }
+
 body {
     margin: 0;
     padding: 0;
