@@ -182,7 +182,7 @@ header {
     align-items: flex-end;
     font-family: "Apfel Grotezk";
     font-weight: normal;
-
+    margin-bottom: 0.5em;
 }
 
 .pf-i-header:hover {
