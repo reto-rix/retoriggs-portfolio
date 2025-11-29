@@ -217,6 +217,7 @@ header {
 }
 
 .pf-i-content {
+    display: none;
     transition: 1s ease;
     overflow: auto;
     max-height: 0;
@@ -226,7 +227,7 @@ header {
 }
 
 .pf-i-content.active {
-    display:inline-grid;
+    display: inline-grid;
     margin-top: 1em;
     margin-bottom: 1em;
     transition: 1s ease;
