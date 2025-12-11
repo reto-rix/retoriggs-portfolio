@@ -32,15 +32,18 @@ accordionHeaders.forEach((header) => {
     })
 })
 
-const menu = document.getElementById("menuBar")
-const overlay = document.getElementById("menuList")
+/* Menu @media overlay */
+
+const menu = document.getElementById("menuOpen")
+const overlay = document.getElementById("menuOverlay")
+const close = document.getElementById("menuClose")
 
 menu.addEventListener("click", function() {
     this.classList.toggle("close");
     overlay.classList.toggle("open");
 })
 
-overlay.addEventListener("click", function() {
-    this.classList.toggle("open");
+close.addEventListener("click", function() {
+    overlay.classList.toggle("open");
     menu.classList.toggle("close")
 })

@@ -68,6 +68,16 @@ div {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.blue {
+    color: blue;
+    text-decoration: underline;
+}
+
 #arrow-down {
     display: block;
     align-self: center;
@@ -117,36 +127,30 @@ header {
 }
 
 .header-contact {
-    grid-column: 11 / span 1;
-    text-align: left;
-    cursor: pointer;
-}
-
-.header-imprint {
     grid-column: 12 / span 1;
     text-align: right;
-    min-width: 100px;
     cursor: pointer;
 }
 
+
 #bio-content {
-    display: flex;
-    min-height: 100vh;
+    display: block;
+    min-height: 50vh;
     font-family: "Adelphe";
     font-style: normal;
     font-size: 1.5em;
     line-height: 1.5em;
-    padding: 15vh;
     letter-spacing: -1px;
     color: #201f1f;
+    padding: 1rem;
+    padding-top: 3.5rem;
 
 }
 
 
 #bio-text {
-    grid-column: 5 / span 7;
     text-align: left;
-    align-self: center;
+    align-self: baseline;
 }
 
 #works {
@@ -279,6 +283,27 @@ header {
     display: none;
 }
 
+.footer {
+    padding: 1rem;
+    font-family: "Apfel Grotezk";
+    font-size: 12px;
+    border-top: 1px solid black;
+    bottom: 0;
+}
+
+.imprint-title {
+    grid-column: 1 / span 12;
+}
+
+.imprint-design {
+    grid-column: 1 / span 6;
+}
+
+.imprint-fonts {
+    grid-column: 7 / span 6;
+}
+
+
 img {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -292,81 +317,7 @@ hr {
 }
 
 @media only screen and (max-width: 750px) {
-    .menuBar {
-        cursor: pointer;
-        display: inline-grid;
-        position: fixed;
-        text-align: right;
-        font-family: "Apfel Grotezk";
-        font-weight: normal;
-        font-size: 12px;
-        padding: 1rem;
-        padding-top: 1.2rem;
-        overflow-wrap: break-word;
-        box-sizing: border-box;
-        z-index: 499;
-        align-content: stretch;
-        width: 100%;
-        backdrop-filter: blur(3px);
-        border-bottom: 1px solid black;
-        background: rgba(255, 255, 255, 0.5);
-    }
-
-    .menuBar.close {
-        visibility: hidden;
-    }
     
-    .header-name {
-        grid-column: 1 / span 5;
-        justify-self: left;
-        margin: 0;
-        padding: 0;
-        min-width: 0;
-    }
-    .header-menu {
-        grid-column: 7 / span 6;
-        justify-self: right;
-    }
-    
-    .menuList {
-        visibility: hidden;
-        display: inline-block;
-        position: fixed;
-        text-align: left;
-        font-family: "Apfel Grotezk";
-        font-weight: normal;
-        font-size: 12px;
-        padding: 1rem;
-        padding-top: 1.2rem;
-        overflow-wrap: break-word;
-        box-sizing: border-box;
-        z-index: 100;
-        align-content: stretch;
-        width: 100%;
-        backdrop-filter: blur(3px);
-        border-bottom: 1px solid black;
-        background: rgba(255, 255, 255, 0.5);
-
-
-    }
-
-    .menuList.open {
-        visibility: visible;
-        cursor: pointer;
-    }
-
-    .header-imprint {
-        text-align: left;
-    }
-
-    header {
-        display: none !important;
-    }
-
-    #bio-content {
-        padding: 10vw;
-    }
-
     .pf-content {
         padding-top: 4rem;
     }
@@ -399,7 +350,7 @@ hr {
 
 
     hr {
-        height: 2px;
+        height: 1px;
         margin-bottom: 2em;
     }
 
