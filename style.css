@@ -63,15 +63,16 @@ p {
     margin-block-start: 0;
     margin-block-end: 0;
 }
-h1 {
+.h1 {
     font-family: "Adelphe";
     font-style: italic;
+    font-weight: bold;
     font-size: 24px;
 }
 
-h2 {
+.subtitle {
     font-family: "Apfel Grotezk";
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
 }
 
