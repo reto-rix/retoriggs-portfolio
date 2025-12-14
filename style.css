@@ -63,6 +63,17 @@ p {
     margin-block-start: 0;
     margin-block-end: 0;
 }
+h1 {
+    font-family: "Adelphe";
+    font-style: italic;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+    font-size: 20px;
+}
 
 div {
     box-sizing: border-box;
@@ -71,6 +82,16 @@ div {
 a {
     text-decoration: none;
     color: black;
+}
+
+sup {
+    vertical-align: baseline;
+    font-family: "Apfel Grotezk";
+    font-size: 0.8em;
+    top: -0.4em;
+    position: relative;
+    color: blue;
+
 }
 
 .blue {
@@ -162,12 +183,11 @@ header {
     position: relative;
     font-family: "Apfel Grotezk";
     font-weight:normal;
-    width: 100%;
     min-height: 100%;
     padding: 1rem;
     padding-top: 3rem;
     overflow-wrap: break-word;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .pf-item {
@@ -186,7 +206,6 @@ header {
     align-items: flex-end;
     font-family: "Apfel Grotezk";
     font-weight: normal;
-    margin-bottom: 0.5em;
 }
 
 .pf-i-header:hover {
@@ -221,7 +240,7 @@ header {
 }
 
 .pf-i-content {
-    display: none;
+    display: inline-grid;
     transition: 1s ease;
     overflow: auto;
     max-height: 0;
@@ -232,9 +251,9 @@ header {
 
 .pf-i-content.active {
     display: inline-grid;
-    margin-top: 1em;
     margin-bottom: 1em;
     transition: 1s ease;
+    overflow: visible;
 }
 
 /* Grid Column Alignments */
@@ -266,24 +285,18 @@ header {
 }
 
 .pf-i-c-citations {
-    grid-column: span 2;
+    grid-column: span 3;
     font-size: 12px;
     color: dimgrey;
     font-family: "Apfel Grotezk";
     font-weight: normal;
     text-align: left;
-    align-self: flex-end;
-}
-
-.menuBar {
-    display: none;
-}
-
-.menuList {
-    display: none;
+    align-self: flex-start;
 }
 
 .footer {
+    display: grid;
+    position: relative;
     padding: 1rem;
     font-family: "Apfel Grotezk";
     font-size: 12px;
@@ -296,11 +309,11 @@ header {
 }
 
 .imprint-design {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 8;
 }
 
 .imprint-fonts {
-    grid-column: 7 / span 6;
+    grid-column: 9 / span 2;
 }
 
 
@@ -317,7 +330,11 @@ hr {
 }
 
 @media only screen and (max-width: 750px) {
-    
+
+    .grid-container {
+        display: inline-block;
+    }
+
     .pf-content {
         padding-top: 4rem;
     }
@@ -344,8 +361,6 @@ hr {
     .pf-i-c-citations {
         padding-top: 1em;
         max-width: 50%;
-
-
     }
 
 
@@ -356,6 +371,10 @@ hr {
 
     .bio-text {
         grid-column: 2 / span 10;
+    }
+
+    .footer {
+    display: inline-block;
     }
 
 }

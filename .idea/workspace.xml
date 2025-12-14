@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="20251129">
+    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="20251211">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W2_Video_Sequence.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/W2_Video_Sequence.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rex_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/rex_js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rex_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rex_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css/fonts" />
     </key>
@@ -83,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763303521025</updated>
       <workItem from="1763303522062" duration="10253000" />
-      <workItem from="1764434803595" duration="12100000" />
+      <workItem from="1764434803595" duration="23548000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -189,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764440958040</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20251129">
+      <option name="closed" value="true" />
+      <created>1765488079235</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765488079235</updated>
+    </task>
+    <task id="LOCAL-00015" summary="20251211">
+      <option name="closed" value="true" />
+      <created>1765488534850</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765488534850</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
     <MESSAGE value="20251129" />
-    <option name="LAST_COMMIT_MESSAGE" value="20251129" />
+    <MESSAGE value="20251211" />
+    <option name="LAST_COMMIT_MESSAGE" value="20251211" />
   </component>
 </project>
