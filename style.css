@@ -253,7 +253,7 @@ header {
 }
 
 .pf-i-content {
-    display: inline-grid;
+    display: grid;
     transition: 1s ease;
     overflow: auto;
     max-height: 0;
@@ -263,7 +263,7 @@ header {
 }
 
 .pf-i-content.active {
-    display: inline-grid;
+    display: grid;
     margin-bottom: 1em;
     transition: 1s ease;
     overflow: visible;
