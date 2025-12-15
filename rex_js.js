@@ -1,9 +1,9 @@
-const accordionHeaders = document.querySelectorAll(".pf-i-header");
+const accordionHeaders = document.querySelectorAll('.pf-i-header');
 
 accordionHeaders.forEach((header) => {
     header.addEventListener("click", () => {
         const accordionItem = header.parentElement;
-        const accordionContent = accordionItem.querySelector(".pf-i-content");
+        const accordionContent = accordionItem.querySelector('.pf-i-content');
     accordionContent.classList.toggle("active");
 
     if (accordionContent.classList.contains("active")) {
@@ -33,17 +33,3 @@ accordionHeaders.forEach((header) => {
 })
 
 /* Menu @media overlay */
-
-const menu = document.getElementById("menuOpen")
-const overlay = document.getElementById("menuOverlay")
-const close = document.getElementById("menuClose")
-
-menu.addEventListener("click", function() {
-    this.classList.toggle("close");
-    overlay.classList.toggle("open");
-})
-
-close.addEventListener("click", function() {
-    overlay.classList.toggle("open");
-    menu.classList.toggle("close")
-})

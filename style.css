@@ -97,27 +97,11 @@ a {
     color: black;
 }
 
-sup {
-    vertical-align: baseline;
-    font-family: "Apfel Grotezk";
-    font-size: 0.8em;
-    top: -0.4em;
-    position: relative;
-    color: blue;
-
-}
-
 .blue {
     color: blue;
     text-decoration: underline;
 }
 
-#arrow-down {
-    display: block;
-    align-self: center;
-    justify-self: center;
-    cursor: pointer;
-}
 
 .grid-container {
     display:grid;
@@ -185,6 +169,7 @@ header {
 #bio-text {
     text-align: left;
     align-self: baseline;
+    position: relative;
 }
 
 #works {
@@ -241,12 +226,12 @@ header {
     min-width: 75px;
 }
 .pf-i-h-title {
-    grid-column: span 7;
+    grid-column: span 9;
     transition: 1s ease;
 }
 
 .pf-i-h-tag {
-    grid-column: span 4;
+    grid-column: span 2;
     font-family: "Apfel Grotezk";
     font-weight: normal;
     line-height: 90%;
@@ -281,10 +266,10 @@ header {
     min-width: 75px;
 }
 .pf-desc-title {
-    grid-column: span 7;
+    grid-column: span 9;
 }
 .pf-desc-cat {
-    grid-column: span 4;
+    grid-column: span 2;
 }
 
 .pf-i-c-buffer {
@@ -293,12 +278,12 @@ header {
 }
 
 .pf-i-c-body {
-    grid-column: 2 / span 7;
+    grid-column: 2 / span 9;
 
 }
 
 .pf-i-c-citations {
-    grid-column: span 3;
+    grid-column: span 2;
     font-size: 12px;
     color: dimgrey;
     font-family: "Apfel Grotezk";
@@ -316,6 +301,7 @@ header {
     font-size: 12px;
     border-top: 1px solid black;
     bottom: 0;
+    align-self: end;
 }
 
 .imprint-title {
@@ -343,10 +329,68 @@ hr {
     border: 0;
 }
 
+
+sup {
+    vertical-align: baseline;
+    font-family: "Apfel Grotezk";
+    font-size: 0.8em;
+    top: -0.4em;
+    position: relative;
+    color: blue;
+}
+
+.citation-nr {
+    vertical-align: baseline;
+    font-family: "Apfel Grotezk";
+    font-size: 0.8em;
+    top: -0.4em;
+    position: relative;
+    color: blue;
+}
+
+.citation-block {
+    visibility: hidden;
+    position: relative;
+    display: none;
+}
+
+sup:hover + .citation-block {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    margin-right: 16%;
+    margin-left: -1em;
+    visibility: visible;
+    z-index: 1;
+    font-size: 16px;
+    color: #0015ff;
+    background-color: #f1f1f1;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    font-family: "Apfel Grotezk";
+    font-weight: normal;
+    line-height: 1.2em;
+    padding: 1em;
+}
+
+
+
 @media only screen and (max-width: 750px) {
 
     .grid-container {
         display: inline-block;
+    }
+
+    header {
+        padding-bottom: 2rem;
+    }
+    .header-name {
+        position: fixed;
+    }
+    .header-contact {
+        position: fixed;
+        justify-self: right;
+
     }
 
     .pf-content {
@@ -371,12 +415,11 @@ hr {
         display: inline-block
     }
 
-
     .pf-i-c-citations {
+        display: none;
         padding-top: 1em;
         max-width: 50%;
     }
-
 
     hr {
         height: 1px;
@@ -390,5 +433,12 @@ hr {
     .footer {
     display: inline-block;
     }
+
+    sup:hover + .citation-block {
+        margin-right: initial;
+
+    }
+
+
 
 }
