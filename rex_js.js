@@ -33,3 +33,8 @@ accordionHeaders.forEach((header) => {
 })
 
 /* Menu @media overlay */
+
+/* Encode Email Contact */
+var encEmail = "aW5mb0ByZXRvcmlnZ3MuY2g=";
+const form = document.getElementById("contact");
+form.setAttribute("href", "mailto:".concat(atob(encEmail)));
