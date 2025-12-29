@@ -149,7 +149,7 @@ header {
 
 .header-contact {
     position: absolute;
-    justify-self: right;
+    right: 1rem;
     cursor: pointer;
 }
 
