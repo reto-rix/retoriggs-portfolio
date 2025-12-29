@@ -126,7 +126,6 @@ a {
 */
 header {
     position: fixed;
-    display: grid;
     width:100%;
     backdrop-filter: blur(3px);
     border-bottom: 1px solid #000000;
@@ -134,25 +133,23 @@ header {
     font-family: "Apfel Grotezk";
     font-weight: normal;
     font-size: 12px;
-    padding: 1rem;
-    padding-top: 1.2rem;
+    padding: 1.2rem 1rem 2rem 1rem;
     overflow-wrap: break-word;
     box-sizing: border-box;
     z-index: 499;
-    align-content: stretch;
     background: rgba(255, 255, 255, 0.5);
 
 }
 
 .header-name {
-    grid-column: span 1;
     min-width: 75px;
-    
+    position: absolute;
+
 }
 
 .header-contact {
-    grid-column: 12 / span 1;
-    text-align: right;
+    position: absolute;
+    justify-self: right;
     cursor: pointer;
 }
 
@@ -284,6 +281,7 @@ header {
 
 .pf-i-c-body {
     grid-column: 2 / span 9;
+    max-width: 750px;
 
 }
 
@@ -310,19 +308,19 @@ header {
 }
 
 .imprint-title {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 1;
 }
 
 .imprint-title-credits {
-    grid-column: 3 / span 6;
+    grid-column: 2 / span 6;
 }
 
 .imprint-design {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 1;
 }
 
 .imprint-credits {
-    grid-column: 3 / span 5;
+    grid-column: 2 / span 6;
 }
 
 .imprint-fonts {
@@ -393,18 +391,6 @@ sup:hover + .citation-block {
         display: inline-block;
     }
 
-    header {
-        padding-bottom: 2rem;
-    }
-    .header-name {
-        position: fixed;
-    }
-    .header-contact {
-        position: fixed;
-        justify-self: right;
-
-    }
-
     .pf-content {
         padding-top: 4rem;
     }
@@ -413,10 +399,6 @@ sup:hover + .citation-block {
     }
     .pf-i-header {
         display: inline-block;
-    }
-
-    .pf-i-h-title {
-
     }
 
     .pf-i-content.active {
