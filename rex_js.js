@@ -32,6 +32,19 @@ accordionHeaders.forEach((header) => {
     })
 })
 
+/*
+Scroll To
+*/
+let arrow = document.getElementById('arrow');
+let content = document.querySelector('.pf-content');
+
+arrow.addEventListener("click", function() {
+    content.scrollIntoView({behavior: "smooth", block: "start"});
+    arrow.style.visibility = "hidden";
+
+});
+
+
 /* Menu @media overlay */
 
 /* Encode Email Contact */

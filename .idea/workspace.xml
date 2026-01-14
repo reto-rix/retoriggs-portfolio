@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="20251221">
+    <list default="true" id="8e256c2e-c1c2-4b6e-ba96-4fc0ed1ad334" name="Changes" comment="20251229">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rex_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/rex_js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,8 @@
       <updated>1763303521025</updated>
       <workItem from="1763303522062" duration="10253000" />
       <workItem from="1764434803595" duration="52372000" />
-      <workItem from="1765799630095" duration="33449000" />
+      <workItem from="1765799630095" duration="46405000" />
+      <workItem from="1768404352365" duration="2123000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -335,11 +337,38 @@
       <option name="project" value="LOCAL" />
       <updated>1766324864839</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="20251229">
+      <option name="closed" value="true" />
+      <created>1767014985935</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1767014985935</updated>
+    </task>
+    <task id="LOCAL-00033" summary="20251229">
+      <option name="closed" value="true" />
+      <created>1767017900616</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1767017900616</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
@@ -349,6 +378,7 @@
     <MESSAGE value="20251217" />
     <MESSAGE value="20251220" />
     <MESSAGE value="20251221" />
-    <option name="LAST_COMMIT_MESSAGE" value="20251221" />
+    <MESSAGE value="20251229" />
+    <option name="LAST_COMMIT_MESSAGE" value="20251229" />
   </component>
 </project>

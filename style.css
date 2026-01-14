@@ -156,7 +156,7 @@ header {
 
 #bio-content {
     display: block;
-    min-height: 50vh;
+    min-height: 100vh;
     font-family: "Adelphe";
     font-style: normal;
     font-size: 1.5em;
@@ -166,6 +166,14 @@ header {
     padding: 1rem;
     padding-top: 3.5rem;
 
+}
+
+#arrow {
+    font-family: "Apfel Grotezk";
+    bottom: 1rem;
+    position: absolute;
+    cursor: pointer;
+    justify-self: center;
 }
 
 
@@ -211,7 +219,6 @@ header {
 
 .pf-i-header:hover {
     color: #0015ff;
-    transition: 0.5s ease;
 }
 
 .pf-i-h-title.active {
@@ -229,7 +236,7 @@ header {
 }
 .pf-i-h-title {
     grid-column: span 9;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
 .pf-i-h-tag {
@@ -241,7 +248,7 @@ header {
 
 .pf-i-content {
     display: grid;
-    transition: 1s ease;
+    transition: 0.5s ease;
     overflow: auto;
     max-height: 0;
     align-content: baseline;
