@@ -155,7 +155,7 @@ header {
 
 
 #bio-content {
-    display: block;
+    display: grid;
     min-height: 100vh;
     font-family: "Adelphe";
     font-style: normal;
