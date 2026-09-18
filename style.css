@@ -178,9 +178,12 @@ header {
 
 
 #bio-text {
-    text-align: left;
-    align-self: baseline;
+    text-align: center;
+    align-self: center;
     position: relative;
+    width: 60%;
+    min-width: 400px;
+    justify-self: center;
 }
 
 #works {
